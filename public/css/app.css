@@ -18,7 +18,10 @@
 * {
   box-sizing: border-box;
 }
-
+#miP{
+  font-size: 1em;
+  text-decoration-line: line-through;
+}
 html,
 body {
   min-height: 100vh;

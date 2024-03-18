@@ -22,7 +22,12 @@
 							
 						</figure>
 						<article class="product-box_data">
-							<h2></h2>
+							<h2 id="miId">
+								<% if (products[index].discount !== 0) { %>
+									<p id="miP"><%= products[index].price.toLocaleString() %></p id="miP">
+								<% } %>
+							
+							</h2>
 							<h2>$<% if (products[index].discount === 0) { %>
 								<%= products[index].price.toLocaleString() %>
 							<% } else { %>
